@@ -1,6 +1,6 @@
+
+
 const Grid = (props)=>{
-
-
     let images = [];
     props.cardList.forEach((element, index) => {
       images.push(
@@ -12,8 +12,8 @@ const Grid = (props)=>{
       )
     });
     return (
-        <div>
-            {images};
+        <div className="Grid">
+            {images}
         </div>
     )
 }
