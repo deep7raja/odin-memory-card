@@ -1,4 +1,4 @@
-
+import './Grid.css'
 
 const Grid = (props)=>{
     let images = [];

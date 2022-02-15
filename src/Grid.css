@@ -1,0 +1,16 @@
+.Grid{
+    width: clamp(500px, 70vw, 700px);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    padding: 15px;
+}
+
+.Grid>img{
+    width: 100%;
+    filter: brightness(90%);
+}
+.Grid>img:hover{
+    filter: brightness(110%);
+}
